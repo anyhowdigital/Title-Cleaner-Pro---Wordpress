@@ -1,0 +1,47 @@
+# Mac OS
+.DS_Store
+
+# Node/npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Composer
+/vendor/
+composer.lock
+
+# PHPStorm / IDEs
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+debug.log
+wp-content/title-cleaner.log
+
+# WordPress core & uploads (αν δουλεύεις μέσα σε full WP repo)
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+
+# Build artifacts
+*.zip
+*.tar.gz
+
+# Backup & temp files
+*.bak
+*.tmp
+*.swp
+*.orig
+
+# Git & deployment tools
+.env
+.env.local
+.env.*.local
+.htaccess
+
+# Translations (προαιρετικά αν δεν χρησιμοποιείς)
+*.mo
+*.pot
